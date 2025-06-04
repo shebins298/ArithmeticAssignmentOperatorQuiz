@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Operators Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>🧮 Assignment Operators Quiz</h1>
+      <div id="quiz-box">
+        <p id="question"></p>
+        <input type="number" id="answer" placeholder="Your answer" />
+        <button onclick="submitAnswer()">Submit</button>
+        <p id="feedback"></p>
+      </div>
+      <div id="result-box" class="hidden">
+        <h2>Quiz Completed!</h2>
+        <p id="score-display"></p>
+        <button onclick="restartQuiz()">Restart</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
